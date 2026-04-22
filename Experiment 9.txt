@@ -1,0 +1,50 @@
+Experiment 9
+a) basic shell 
+#!/bin.bash
+echo "present working directory"
+pwd
+echo " List of content in pwd"
+ls
+echo "No. of processes running with user"
+ps
+
+
+b) Display message and whoami command
+#!/bin/bash
+
+echo "Welcome to SIT"
+echo "You are working with"
+whoami
+echo "on"
+date
+
+
+c) Arthimetic operations 
+#!/bin/bash
+
+echo "Enter first number"
+read a
+
+echo "Enter second number"
+read b
+
+# Addition
+c=$((a + b))
+echo "Addition is $c"
+
+# Subtraction
+d=$((a - b))
+echo "Subtraction is $d"
+
+# Multiplication
+e=$((a * b))
+echo "Multiplication is $e"
+
+# Remainder
+f=$((a % b))
+echo "Remainder is $f"
+
+# Division
+g=$((a / b))
+echo "Quotient is $g"
+

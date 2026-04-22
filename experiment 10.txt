@@ -1,0 +1,60 @@
+experiment 10
+if-else statement
+
+
+a)To check whether student passed or failed
+#!/bin/bash
+
+echo "Enter any number:"
+read num
+
+if [ $num -ge 40 ]
+then
+    echo "PASS"
+else
+    echo "FAIL"
+fi
+
+b)To check whether the number is odd or even
+#!/bin/bash
+
+echo "Enter any number:"
+read num
+
+if [ $((num % 2)) -eq 0 ]
+then
+    echo "Number is even"
+else
+    echo "Number is odd"
+fi
+
+c)To check the grades/ class of student using marks and percentage 
+#!/bin/bash
+
+echo "Enter OS marks:"
+read os
+
+echo "Enter EM 2 marks:"
+read em
+
+echo "Enter DS marks:"
+read ds
+
+total=$((os + em + ds))
+echo "Total marks $total"
+
+percentage=$((total / 3))
+echo "Percentage is $percentage"
+
+if [ $percentage -ge 70 ]
+then
+    echo "PASS WITH FIRST CLASS"
+elif [ $percentage -ge 60 ]
+then
+    echo "PASS WITH SECOND CLASS"
+elif [ $percentage -ge 50 ]
+then
+    echo "PASS WITH THIRD CLASS"
+else
+    echo "FAIL"
+fi
