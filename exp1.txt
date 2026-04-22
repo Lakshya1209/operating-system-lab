@@ -1,0 +1,23 @@
+Experiment 1
+Aim- To implement basic Linux commands
+
+ls : displays all commands
+ls -l : displays file in long format
+mkdir - creates a directory
+	syntax- mdir [directory name]
+	ex- mkdir lakshya1249
+man - displays manual pages for commands, utilities and etc
+	syntax- man [command]
+	ex- man ls
+	    man cp
+cp - for copying files or folder
+	syntax- cp [optional] [source] [destination]
+	ex- cp file1.txt file2.txt
+cd - changes directory
+	syntax - cd [directory name]
+	ex - cd lakshya1249
+mv - Move or rename file
+	syntax- mv [oldname].txt [newname].txt
+	ex - mv Lakshya.txt lakshya_1249.txt
+
+

@@ -1,0 +1,15 @@
+Experiment 2
+To implement all the process management commands on Linux
+commands
+applicationname - runs any application in background
+	ex - firefox
+pidof applicationname - Gives process id of a running program
+	ex - pidof firefox
+kill pid - terminates the running process
+	syntax - kill [pid]
+	ex - kill 1256
+ps- shows process running in current terminal
+
+bg - resumes a suspended and stopped jobs
+	ex- bg 1
+kill all - terminates all the processes running 
